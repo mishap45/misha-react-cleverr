@@ -1,0 +1,80 @@
+.section3Head {
+  margin-top: 150px;
+}
+
+.bigHeadSection3 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 33px;
+  text-align: center;
+  word-break: break-word;
+}
+
+.smallHeadSection3 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 68px;
+  word-break: break-word;
+}
+
+
+.accordion {
+  background-color: #f5f7fa;
+  color: #242f51;
+  cursor: pointer;
+  padding: 25px 45px 25px 45px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.5s;
+  margin: 5px 6% 5px 7.5%;
+  font-weight: 500;
+}
+
+.accordion:hover {
+  background-color: #607D8B;
+  color: white;
+}
+
+.active {
+  background-color: #f5f7fa;
+  color: #242f51;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #242f51;
+  font-size: 18px;
+  font-weight: 500;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion:hover:after {
+  color: #fff;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 45px 0 45px;
+  color: #242f51;
+  background-color: #f5f7fa;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  margin-left: 7.5%;
+  white-space: pre-line;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.bottom {
+  margin-bottom: 140px;
+}
